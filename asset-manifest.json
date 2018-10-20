@@ -1,13 +1,13 @@
 {
-  "main.css": "/punk-api-react-app/static/css/main.f522d337.chunk.css",
-  "main.js": "/punk-api-react-app/static/js/main.d30a1b0c.chunk.js",
-  "main.js.map": "/punk-api-react-app/static/js/main.d30a1b0c.chunk.js.map",
+  "main.css": "/punk-api-react-app/static/css/main.cd1ca4d3.chunk.css",
+  "main.js": "/punk-api-react-app/static/js/main.3ccd802f.chunk.js",
+  "main.js.map": "/punk-api-react-app/static/js/main.3ccd802f.chunk.js.map",
   "static/js/1.690392f5.chunk.js": "/punk-api-react-app/static/js/1.690392f5.chunk.js",
   "static/js/1.690392f5.chunk.js.map": "/punk-api-react-app/static/js/1.690392f5.chunk.js.map",
   "runtime~main.js": "/punk-api-react-app/static/js/runtime~main.86da4234.js",
   "runtime~main.js.map": "/punk-api-react-app/static/js/runtime~main.86da4234.js.map",
-  "static/css/main.f522d337.chunk.css.map": "/punk-api-react-app/static/css/main.f522d337.chunk.css.map",
+  "static/css/main.cd1ca4d3.chunk.css.map": "/punk-api-react-app/static/css/main.cd1ca4d3.chunk.css.map",
   "index.html": "/punk-api-react-app/index.html",
-  "precache-manifest.72b3fab2cf74635676a2cda5d5b6cb04.js": "/punk-api-react-app/precache-manifest.72b3fab2cf74635676a2cda5d5b6cb04.js",
+  "precache-manifest.bfe2ffb402256ab90ba4e3e1bc277698.js": "/punk-api-react-app/precache-manifest.bfe2ffb402256ab90ba4e3e1bc277698.js",
   "service-worker.js": "/punk-api-react-app/service-worker.js"
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/punk-api-react-app/precache-manifest.72b3fab2cf74635676a2cda5d5b6cb04.js"
+  "/punk-api-react-app/precache-manifest.bfe2ffb402256ab90ba4e3e1bc277698.js"
 );
 
 workbox.clientsClaim();
