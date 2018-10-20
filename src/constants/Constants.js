@@ -18,6 +18,6 @@ export const BUTTON_TEXT = {
 };
 
 export const LABEL = {
-  BY_NAME: "by name",
-  BY_DESCRIPTION: "by description"
+  BY_NAME: "By name",
+  BY_DESCRIPTION: "By description"
 };

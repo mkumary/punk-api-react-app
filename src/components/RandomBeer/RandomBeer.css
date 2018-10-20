@@ -24,6 +24,9 @@ img {
   display: flex;
   justify-content: space-between;
 }
+.random-beer-section .random-beer-info .beerDesc {
+  font-size: 13px;
+}
 .random-beer-section .random-beer-info .random-beer-info-left {
   flex: 2;
 }

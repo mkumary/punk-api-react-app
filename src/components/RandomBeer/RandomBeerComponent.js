@@ -28,9 +28,9 @@ class RandomBeerComponent extends Component {
       return (
         <div className="random-beer-info">
           <div className="random-beer-info-left">
-            <h6>
+            <h4>
               {randomBeer.name ? randomBeer.name : PLACEHOLDERS.PLACEHOLDER}
-            </h6>
+            </h4>
             <img
               src={
                 randomBeer.image_url
@@ -41,7 +41,7 @@ class RandomBeerComponent extends Component {
             />
           </div>
           <div className="random-beer-info-right">
-            <p>{randomBeer.description}</p>
+            <p className="beerDesc">{randomBeer.description}</p>
           </div>
         </div>
       );

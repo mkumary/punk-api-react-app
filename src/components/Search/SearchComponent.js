@@ -24,9 +24,15 @@ class SearchComponent extends Component {
   }
   onSearch() {
     if (this.state.searchcat === "byname") {
-      api.searchByName(this.state.searchText).then(response => {
-        this.setState({ searchResults: response });
-      });
+      if (this.state.searchText) {
+        api
+          .searchByName(this.state.searchText.replace(/\s+/g, "_"))
+          .then(response => {
+            this.setState({ searchResults: response });
+          });
+      } else {
+        console.log("You seems to miss entering some text");
+      }
     } else {
       api
         .searchByDescription(this.state.searchText.replace(/\s+/g, "_"))
@@ -40,18 +46,15 @@ class SearchComponent extends Component {
       <div className="search-section">
         <div className="search-input-container">
           <div className="search-text-container">
-            <input
-              type="search"
-              onChange={this.onChangeSearchText.bind(this)}
-            />
+            <input type="search" onKeyUp={this.onChangeSearchText.bind(this)} />
           </div>
           <div
             className="search-category-container"
             onChange={this.setSearchCategory.bind(this)}
           >
-            <input type="radio" value="byname" name="searchkey" />{" "}
+            <input type="radio" value="byname" name="searchkey" />
             {LABEL.BY_NAME}
-            <input type="radio" value="bydisc" name="searchkey" />{" "}
+            <input type="radio" value="bydisc" name="searchkey" />
             {LABEL.BY_DESCRIPTION}
           </div>
           <div className="search-action-container">
