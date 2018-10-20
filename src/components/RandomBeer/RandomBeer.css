@@ -1,0 +1,33 @@
+img {
+  height: 100px;
+}
+.random-beer-section {
+  display: flex;
+  border: solid 1px;
+  padding: 10px;
+  vertical-align: middle;
+  margin: 10px;
+}
+.random-beer-section button {
+  margin-top: 20px;
+}
+.random-beer-section button.non-alcoholic-btn {
+  font-size: 12px;
+}
+.random-beer-section-left {
+  flex: 6;
+}
+.random-beer-section-right {
+  flex: 2;
+}
+.random-beer-section .random-beer-info {
+  display: flex;
+  justify-content: space-between;
+}
+.random-beer-section .random-beer-info .random-beer-info-left {
+  flex: 2;
+}
+.random-beer-section .random-beer-info .random-beer-info-right {
+  flex: 6;
+  padding-top: 20px;
+}

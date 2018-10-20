@@ -1,0 +1,14 @@
+.search-input-container {
+  display: flex;
+  justify-content: space-between;
+}
+.search-category-container input:nth-child(2) {
+  margin-left: 20px;
+}
+.search-text-container input {
+  width: 200px;
+  margin-left: 20px;
+}
+.search-action-container button {
+  margin-right: 20px;
+}

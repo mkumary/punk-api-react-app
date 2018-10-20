@@ -1,0 +1,21 @@
+li {
+  list-style: none;
+}
+li .search-item-image img {
+  margin-top: 10px;
+  height: 100px;
+  width: 35px;
+}
+.search-list-item-container {
+  display: flex;
+  margin-top: 20px;
+}
+.search-list-item-container .beerName {
+  font-weight: 900;
+}
+.search-list-item-container .beerDesc {
+  padding-top: 10px;
+}
+.search-item-info {
+  margin-left: 30px;
+}
